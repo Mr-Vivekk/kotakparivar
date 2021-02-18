@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display:flex;
+    
+    align-items: center;
+}
+
+/* Navigation bar:logo and img */
+#logo{
+    width: 10%;
+    margin: 0px 5px;;
+}
+#logo img{
+    height: 75px;
+    margin-left: 30px;
+    
+}
+
+/* NAvigation logo text */
+#logotext{
+    
+    font-size: 1.1rem;
+    color: black;
+    display: block;
+    margin: 1px 1px ;
+    padding: 1px 1px;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+/* Navigation bar list styling */
+
+#navbar{
+    background-color: brown;
+    position: relative;
+    
+    
+}
+
+#navbar ul{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+#navbar::before{
+    content: "";
+    background-color:brown;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 550;
+}
+
+#navbar ul li a{
+
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 10px 15px;
+    padding: 10px 8px;
+}
+
+#navbar ul li a:hover{
+
+    color: black;
+    background-color:white;
+    border-radius: 16px;
+}
+
+/* HOME SECTION */
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 690px;
+    background: image();
+    font-size: 2.5rem;
+   
+}
+
+#home::before{
+    content: "";
+    background: url('../photos/home1.JPG')no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+/* HOME SECTION HEADING */
+
+#home h1{
+    position: relative;
+    color: black;
+    text-align: center;
+    
+}
+
+/* UTILITY CLASSES */
+.hfirst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+/* ABOUT SECTION */
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown
+}
+
+#about h1{
+    position: relative;
+    color: black;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 4rem;
+}
+
+#about p{
+    color:black;
+    padding: 30px 250px;
+    text-align: center;
+}
+
+/* EVENT SECTION */
+#eventsdiv{
+    display: flex;
+
+}
+
+#events{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown;
+}
+
+#events h1{
+    position: relative;
+    color: black;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 4rem;
+}
+
+#eventsinside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#eventsimage{
+    display: flex;
+}
+#events img{
+    width: 100%;
+    height: 600px;
+}
+
+.hthird{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+
+
+
+    
+
+
+
+
